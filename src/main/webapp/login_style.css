@@ -1,0 +1,102 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(116, 116, 231);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:white;
+    
+}
+.form{
+    margin-top:2rem;
+    margin-bottom: 10px;
+    background-color: rgba(37, 30, 30,0.5);
+    width: 250px;
+    height:350px;
+    
+    padding-top: 2.5rem;
+   padding-left: 4rem;
+    justify-content: centre;
+    align-items: center;
+    border-radius: 1rem;
+   
+
+}
+.option{
+    
+    justify-content: centre;
+    align-items: center;
+    flex-direction: column;
+    gap :2rem;
+    
+}
+#login,#reg{
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color:inherit;
+    margin:0.40rem
+    
+}
+#reg{
+    border-bottom: solid rgba(37, 30, 30,0.5) ;
+}
+.credentials input{
+    color:white;
+    background-color:inherit;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    height:1.5rem;
+    width: 12rem;
+    margin-top:0.10rem;
+    
+    
+
+}
+
+#login{
+    border-bottom: 2px solid  rgb(192, 64, 85);
+    color:white;
+    font-size: medium;
+
+}
+#submitbtn{
+    margin-top:2rem;
+    width:180px;
+    height:2rem;
+    background-color: rgb(192, 64, 85);
+    margin-bottom: 1rem;
+    border:none;
+    color:white;
+    font-size: medium;
+}
+
+#forget{
+    
+    width:180px;
+    height:1rem;
+    background-color:inherit;
+    margin-bottom: 2rem;
+    margin-top:10px;
+    border: none;
+    color:white;
+}
+.credentials p{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    color:white;
+   
+}
+input::placeholder{
+    color:grey;
+
+}
+input.red-placeholder::placeholder{
+    color:rgb(238, 93, 93);
+}
+
+
+@charset "UTF-8";

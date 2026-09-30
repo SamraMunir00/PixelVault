@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    color:white;
+}
+.home{
+    display:flex;
+    height:100vh;
+   
+}
+.profile,.content{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile{
+    background-color: rgb(38, 38, 39);
+    flex:1;
+}
+
+.content{
+	flex-direction:column;
+	text-align:center;
+    background-color:   rgb(116, 116, 231);
+    flex:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.buttons{
+	/*flex-direction:column;*/
+	border-radius:1px;
+	background-color: rgb(38, 38, 39);
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    width:100%;
+    max-width:1000px;
+    overflow-y:auto;
+    
+    max-height: 75vh;
+}
+
+.profile{
+    padding:10px;
+}
+
+.account{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    position:absolute;
+    top:40px;
+    left:20px;
+
+}
+#pic{
+    border-radius: 50%;
+    width:fit-content;
+    height:50px;
+}
+
+ #delete,#changepassword,#logout{
+    border-radius: 10px;
+    background-color: rgb(116, 116, 231);
+    color:white;
+    width:90px ;
+    height: 40px;
+    text-align: center;
+}
+h2 {
+    /*margin-top: 5px;*/
+   
+   text-align: center;
+  
+   
+}
+
+
+
+#GoBack{
+   
+    border-radius: 10px;
+    background-color: rgb(38, 38, 39) ;
+    width:100px;
+    margin-top:auto;
+    bottom:5px;
+    margin-bottom:15px;
+   text-align:center;
+    height:40px;
+    position:absolute;
+}
+
+#del,#change{
+	border-radius: 10px;
+    background-color:rgb(116, 116, 231) ;
+	text-align: center;
+	width:90px;
+	height:25px;
+	color:white;
+}
+
+.content table,td{
+	border:1px solid rgb(0,0,0);
+	
+}
+.content table{
+	border-collapse:collapse;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin:0;
+	table-layout: auto;
+	
+}
+
+th{
+	color:white;
+	position:sticky;
+	top:0;
+	font-size:large;
+	z-index:1;
+}
+thead{
+	z-index:1;
+	top:0;
+}
+.content td ,#GoBack{
+	
+	color:white;
+	cursor:pointer;
+	padding:5px 10px;
+}
+
+td{
+	top:0;
+	text-align:left;
+
+	word-wrap:break-word;
+	overflow-wrap:break-word;
+	word-break:break-all;
+}
+
+tr{
+	border:6px solid rgb(116, 116, 231);
+}
+.de{
+	top:0;
+	width:200px;
+}
+.op{
+	width:20px;
+}
+.pic{
+	align-items:center;
+}
+#picData{
+    
+    width:fit-content;
+    height:270px;
+}

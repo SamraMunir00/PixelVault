@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    color:white;
+}
+.home{
+    display:flex;
+    height:100vh;
+   
+}
+.profile,.content{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.profile{
+    background-color: rgb(38, 38, 39);
+    flex:1;
+}
+.content{
+	flex-direction:column;
+	text-align:center;
+    background-color:   rgb(116, 116, 231);
+    flex:5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.data{
+	border-radius:1px;
+	background-color: rgb(38, 38, 39);
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    width:100%;
+    max-width:800px;
+    overflow-y:auto;
+    height:400px;
+    
+}
+
+.profile{
+    padding:10px;
+}
+
+.account{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    position:absolute;
+    top:40px;
+    left:20px;
+
+}
+#pic{
+    border-radius: 50%;
+    width:fit-content;
+    height:50px;
+}
+ #changepassword,#logout{
+    border-radius: 10px;
+    background-color: rgb(116, 116, 231);
+    color:white;
+    width:90px ;
+    height: 40px;
+    text-align: center;
+}
+h2 {
+    margin-top: 20px;
+   margin-bottom: 10px;
+   text-align: center;
+   border:none;
+   border-bottom: 1px  solid rgb(116, 116, 231);
+}
+
+
+
+#GoBack{
+   
+    border-radius: 10px;
+    background-color: rgb(38, 38, 39) ;
+    width:100px;
+    margin-top:15px;
+    bottom:0;
+    margin-bottom:15px;
+   text-align:center;
+    height:40px;
+    position:absolute;
+}
+
+#del,#change{
+	border-radius: 10px;
+    background-color:rgb(116, 116, 231) ;
+	text-align: center;
+	width:90px;
+	height:40px;
+	color:white;
+}
+
+.content table,td{
+	border:1px solid rgb(0,0,0);
+	
+}
+.content table{
+	border-collapse:collapse;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin:0;
+	
+}
+th{
+	position:sticky;
+	top:0;
+	font-size:medium;
+}
+.content td ,#GoBack{
+	
+	color:white;
+	cursor:pointer;
+	padding:5px 10px;
+}
